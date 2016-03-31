@@ -47,4 +47,32 @@ nav {
     width: 20em;
     padding: 4px 16px; }
 
+.images .image-caption {
+  padding: .3em;
+  color: #9A999E; }
+
+.welcome {
+  border-top: solid .1em #9A999E;
+  margin: .8em;
+  color: #9A999E; }
+  .welcome h1 {
+    font-size: 14px; }
+  .welcome p {
+    font-size: 12px; }
+
+footer {
+  background-color: #3A414B;
+  color: #9A999E;
+  padding: .8em; }
+  footer h2 {
+    font-size: 14px; }
+  footer .snapgrid-footer-top {
+    font-size: 10px; }
+  footer .about-us-footer a {
+    display: block;
+    color: #9A999E;
+    font-size: 10px; }
+  footer .contact-footer {
+    font-size: 10px; }
+
 /*# sourceMappingURL=main.css.map */

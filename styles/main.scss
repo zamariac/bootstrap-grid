@@ -62,10 +62,50 @@ nav{
 
 }
 
-.well{
-	h1{
+.images {
+	.image-caption{
+		padding: .3em;
+		color: #9A999E;
+	}
+}
+
+.welcome{
+	border-top: solid .1em #9A999E;
+	margin: .8em;
+
+	color: #9A999E;
+		h1{
+			font-size: 14px;
+
+		}
+		p{
+			font-size: 12px;
+		} 
+}
+
+
+footer{
+	background-color: #3A414B;
+	color: #9A999E;
+	padding: .8em;
+	h2{
+		font-size: 14px;
+	}
+	.snapgrid-footer-top{
+		font-size: 10px;
+	}
+	.about-us-footer{
+		
+		a{
+		display: block;
+		color: #9A999E;
+		font-size: 10px;	
+		}
+	}
+	.contact-footer{
+		font-size: 10px;
+
 
 	}
-
 }
 		
