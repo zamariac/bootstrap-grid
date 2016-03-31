@@ -1,0 +1,50 @@
+#hamburger {
+  background-color: #3073AC; }
+
+nav {
+  background-color: white; }
+
+.navbar-header {
+  background-color: white; }
+
+.snap {
+  color: #3782BF;
+  float: left;
+  font-size: 1em;
+  font-weight: bold; }
+
+.grid {
+  font-size: 1em;
+  color: #5A616C;
+  float: left;
+  font-weight: bold; }
+
+.main-intro {
+  text-align: center;
+  background-size: cover;
+  background-image: url(../images/hero-dark.jpg);
+  color: white;
+  padding: 6em;
+  margin: -2em; }
+  .main-intro h1 {
+    font-size: 28px; }
+  .main-intro p {
+    font-size: 18px; }
+
+.jumbotron {
+  background-color: white;
+  padding-left: 2em;
+  padding-right: 2em;
+  border-bottom: solid .1em #9A999E; }
+  .jumbotron .jumbotron-title {
+    font-size: 18px;
+    color: #9A999E; }
+  .jumbotron .jumbotron-text {
+    font-size: 12px;
+    color: #9A999E; }
+  .jumbotron .btn {
+    font-size: 8px;
+    width: 20em;
+    padding: 4px 16px; }
+
+/*# sourceMappingURL=main.css.map */
