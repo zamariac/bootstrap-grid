@@ -1,8 +1,15 @@
+div.container-fluid {
+  padding: 0; }
+
 #hamburger {
   background-color: #3073AC; }
 
-nav {
+nav.navbar-default .navbar-toggle .icon-bar {
   background-color: white; }
+
+nav.navbar {
+  border: none;
+  margin-bottom: 0; }
 
 .navbar-header {
   background-color: white; }
@@ -19,33 +26,64 @@ nav {
   float: left;
   font-weight: bold; }
 
+li a.login-button {
+  background-color: blue; }
+
+.navbar-default .navbar-collapse {
+  background-color: white; }
+
+nav.navbar-default .navbar-nav > .active > a {
+  background-color: white; }
+
+.navbar-brand .snap {
+  padding-left: 2em; }
+
 .main-intro {
   text-align: center;
   background-size: cover;
   background-image: url(../images/hero-dark.jpg);
   color: white;
-  padding: 6em;
-  margin: -2em; }
+  padding: 4em; }
   .main-intro h1 {
-    font-size: 28px; }
+    font-size: 2.5em;
+    letter-spacing: .125em;
+    font-weight: 200; }
   .main-intro p {
-    font-size: 18px; }
+    font-size: 1.12em;
+    font-weight: 200;
+    letter-spacing: .06em; }
 
-.jumbotron {
+div.jumbotron {
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  border-bottom: solid .1em #9A999E;
   background-color: white;
-  padding-left: 2em;
-  padding-right: 2em;
-  border-bottom: solid .1em #9A999E; }
-  .jumbotron .jumbotron-title {
-    font-size: 18px;
+  margin: .9em; }
+  div.jumbotron .jumbotron-title {
+    font-size: 1.2em;
+    letter-spacing: .03em;
     color: #9A999E; }
-  .jumbotron .jumbotron-text {
-    font-size: 12px;
+  div.jumbotron .jumbotron-text {
+    font-size: .7em;
     color: #9A999E; }
-  .jumbotron .btn {
-    font-size: 8px;
-    width: 20em;
-    padding: 4px 16px; }
+  div.jumbotron .btn {
+    font-size: .5em;
+    width: 16em;
+    padding: .25em 1em; }
+
+div.well {
+  color: #9A999E;
+  font-size: .7em;
+  padding-top: 0; }
+  div.well h1 {
+    font-size: 1.2em;
+    color: #9A999E; }
+
+#well-box {
+  margin-left: .5em;
+  margin-right: .5em; }
 
 .images .image-caption {
   padding: .3em;
@@ -53,17 +91,20 @@ nav {
 
 .welcome {
   border-top: solid .1em #9A999E;
-  margin: .8em;
-  color: #9A999E; }
+  color: #9A999E;
+  margin-right: 1em;
+  margin-left: 1em; }
   .welcome h1 {
-    font-size: 14px; }
+    font-size: 1.2em; }
   .welcome p {
-    font-size: 12px; }
+    font-size: .7em; }
+  .welcome img {
+    padding-bottom: 1em; }
 
 footer {
   background-color: #3A414B;
   color: #9A999E;
-  padding: .8em; }
+  padding: 1em; }
   footer h2 {
     font-size: 14px; }
   footer .snapgrid-footer-top {
@@ -74,5 +115,45 @@ footer {
     font-size: 10px; }
   footer .contact-footer {
     font-size: 10px; }
+
+@media (min-width: 769px) {
+  .login-button {
+    background-color: #337AB7;
+    margin: .9em;
+    width: 4em;
+    border-radius: 8px;
+    border: none; }
+    .login-button a {
+      color: white; }
+
+  .main-intro {
+    padding: 6em; }
+    .main-intro .snap-grid-intro-info {
+      padding-top: 1em;
+      text-align: left; }
+
+  .jumbotron-title {
+    padding-left: 2em;
+    padding-right: 8em; }
+
+  .jumbotron-text {
+    padding-left: 3.5em;
+    padding-right: 8em; }
+
+  .download-button {
+    float: right; }
+
+  div.well .well-title {
+    text-align: center; }
+
+  div.jumbotron .btn {
+    float: right;
+    margin-top: 2em; }
+
+  .welcome {
+    margin: 1em;
+    padding: .5em; }
+    .welcome img {
+      padding-top: 1em; } }
 
 /*# sourceMappingURL=main.css.map */
