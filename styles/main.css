@@ -155,5 +155,29 @@ footer {
     padding: .5em; }
     .welcome img {
       padding-top: 1em; } }
+@media (min-width: 978px) {
+  .main-intro h1 {
+    font-size: 3em;
+    padding-left: 4em; }
+
+  .main-intro p {
+    font-size: 1.6em;
+    padding-left: 9em; }
+
+  div.jumbotron {
+    padding: 1em; }
+    div.jumbotron .download-button .btn-lg {
+      float: left;
+      margin-left: 2em; }
+    div.jumbotron .jumbotron-title {
+      font-size: 1.5em;
+      text-align: left; }
+    div.jumbotron .jumbotron-text {
+      font-size: .8em;
+      text-align: left; }
+
+  div.well {
+    margin-left: 1em;
+    margin-right: 1em; } }
 
 /*# sourceMappingURL=main.css.map */
